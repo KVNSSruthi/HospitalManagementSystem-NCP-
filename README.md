@@ -1,0 +1,2 @@
+# HospitalManagementSystem-NCP-
+This application is used to manage personal data in a Hospital that is the data about patients, doctors and staff. It is also used to store data about the emergencies,no.of patients admitted,pharmacy bills,appointment information,doctors availability,room availabilty,operation details,patients medical history,hospital policies,staff salary updates,patient bills and room allotments.
