@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hospital SYSTEM "patient.dtd">
+<hospital>
+<patient>
+<name>Kamal</name>
+<age>29</age>
+<weight>50</weight>
+<phone>9874561230</phone>
+</patient>
+<patient category="cleaning">
+<name>Satya</name>
+<age>31</age>
+<weight>60</weight>
+<phone>9874555530</phone>
+</patient >
+<patient  category="accountant">
+<name>Raghy</name>
+<age>52</age>
+<weight>70</weight>
+<phone>966666630</phone>
+</patient >
+<employee  category="staff">
+<name>Manoj</name>
+<age>65</age>
+<weight>40</weight>
+<phone>9111111111</phone>
+</patient >
+</hospital>

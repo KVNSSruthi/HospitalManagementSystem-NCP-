@@ -1,0 +1,10 @@
+{
+    "hospital":{
+"doctor":[
+    {"name":"Kumar", "age":25,"experience":2,"phone":987456123},
+    {"name":"Sumati", "age":31,"experience":0,"phone":987986123},
+    {"name":"Raj", "age":52,"experience":10,"phone":966666666},
+    {"name":"Mahesh", "age":65,"experience":20,"phone":9111111111}
+]
+}
+}

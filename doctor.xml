@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hospital SYSTEM "doctor.dtd">
+<?xml-stylesheet type="text/xsl" href="doctor.xsl"?>
+<hospital>
+<doctor category="cardiologist">
+<name>Kumar</name>
+<age>29</age>
+<experience>0</experience>
+<phone>9874561230</phone>
+</doctor>
+<doctor category="pulmonologist">
+<name>Sumati</name>
+<age>31</age>
+<experience>0</experience>
+<phone>9874555530</phone>
+</doctor>
+<doctor category="orthopedist">
+<name>Raj</name>
+<age>52</age>
+<experience>10</experience>
+<phone>966666630</phone>
+</doctor>
+<doctor category="gastroenterologist">
+<name>Mahesh</name>
+<age>65</age>
+<experience>20</experience>
+<phone>9111111111</phone>
+</doctor>
+</hospital>

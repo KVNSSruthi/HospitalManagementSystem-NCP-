@@ -1,0 +1,7 @@
+<!DOCTYPE doctor [
+<!ELEMENT doctor (name,age,experience,phone)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT experience (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+]>

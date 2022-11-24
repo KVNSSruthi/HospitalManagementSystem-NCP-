@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hospital SYSTEM "employee.dtd">
+<hospital>
+<employee category="nurse">
+<name>Krishna</name>
+<age>29</age>
+<experience>0</experience>
+<phone>9874561230</phone>
+</employee>
+<employee category="cleaning">
+<name>Sumitra</name>
+<age>31</age>
+<experience>0</experience>
+<phone>9874555530</phone>
+</employee >
+<employee  category="accountant">
+<name>Ramana</name>
+<age>52</age>
+<experience>10</experience>
+<phone>966666630</phone>
+</employee >
+<employee  category="staff">
+<name>Mahesh</name>
+<age>65</age>
+<experience>20</experience>
+<phone>9111111111</phone>
+</employee >
+</hospital>

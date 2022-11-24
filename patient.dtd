@@ -1,0 +1,7 @@
+<!DOCTYPE patient [
+<!ELEMENT patient (name,age,weight,phone)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+]>
