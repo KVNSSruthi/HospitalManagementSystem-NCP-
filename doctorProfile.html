@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="G:\sem7notes\NetCentric\CB.EN.U4CSE19660\css\index.css">
+<style>
+  * {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 150%;
+  height: 200px;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+</style>
+</head>
+<body style="font-family:Verdana;color:black;">
+
+<form  action="" method="POST">
+
+<div style="overflow:auto">
+    <div class="head">
+      <header>
+        <h1>Doctors</h1></header>
+    </div>
+
+  <div class="flex-container">
+    <div class="container">
+      <a href="doctor1.html"><img src="heart.png" alt="Avatar" class="image">
+      <div class="overlay">Cardiology</div></a>
+    </div>
+    <div class="container">
+        <a href="doctor2.html"><img src="general.png" alt="Avatar" class="image">
+      <img src="consult.jpg" alt="Avatar" class="image">
+      <div class="overlay">General Surgeon</div></a>
+    </div>
+    <div class="container">
+        <a href="doctor3.html"><img src="neuro.jpg" alt="Avatar" class="image">
+      <img src="doctors.jpg" alt="Avatar" class="image">
+      <div class="overlay">Neuro Surgeon</div></a>
+    </div>
+    <div class="container">
+        <a href="doctor1.html"><img src="heart.png" alt="Avatar" class="image">
+        <img src="consult.jpg" alt="Avatar" class="image">
+        <div class="overlay">Regular Consultancies</div></a>
+      </div>
+      <div class="container">
+        <a href="doctor1.html"><img src="heart.png" alt="Avatar" class="image">
+        <img src="doctors.jpg" alt="Avatar" class="image">
+        <div class="overlay">Best Doctors</div></a>
+      </div>
+      <div class="container">
+        <img src="consult.jpg" alt="Avatar" class="image">
+        <div class="overlay">Regular Consultancies</div>
+      </div>
+      <div class="container">
+        <a href="doctor1.html"><img src="heart.png" alt="Avatar" class="image">
+        <img src="doctors.jpg" alt="Avatar" class="image">
+        <div class="overlay">Best Doctors</div></a>
+      </div>
+      <div class="container">
+        <a href="doctor1.html"><img src="heart.png" alt="Avatar" class="image">
+        <img src="doctors.jpg" alt="Avatar" class="image">
+        <div class="overlay">Best Doctors</div></a>
+      </div>
+     
+  </div>
+</form>  
+<footer>
+<div style="background-color:rgb(15, 180, 231);text-align:right;padding:5px;margin-top:7px;">K V N S Sruthi</div>
+</footer>
+</body>
+</html>
+
